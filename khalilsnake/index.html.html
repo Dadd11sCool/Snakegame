@@ -13,16 +13,18 @@
 }
 h1 {
     text-align: center;
-    color: pink;
+    color: #fcba03;
     font-size: 6em;
     font-family: sans-serif, Arial; 
 }
  </style>
   <body>
-    <div class="something"><h3>Hello everyone,welcome to my website<br>It is being developped actually<br>
-        so you won't find something of WOW <br>You can wait by playing this cool minigame<br> HAHAHA ENJOY IT...</h3></div>
+    <div class="something"><h2>
+        Here is the best game ever
+    </h2>
+    </div>
     <header>
-        <canvas id="gc" width="400" height="400"></canvas>
+        <canvas id="gc" width="400" height="400" color="#fcba03"></canvas>
     <script>
 window.onload=function() {
     canv=document.getElementById("gc");
@@ -51,7 +53,7 @@ function game() {
     if(py>tc-1) {
         py= 0;
     }
-    ctx.fillStyle="pink";
+    ctx.fillStyle="#fcba03";
     ctx.fillRect(0,0,canv.width,canv.height);
  
     ctx.fillStyle="black";
